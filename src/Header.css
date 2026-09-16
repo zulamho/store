@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgb(225, 231, 245);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+nav>a{
+    text-decoration: none;
+    color: #1a1818;
+    padding-right: 60px;
+}
+
+.btn{
+    background-color: #1a1818 ;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.logoBlock > img{
+    width: 60px;
+}
